@@ -114,6 +114,7 @@ obj-$(CONFIG_MSM_HAB) += hab/
 obj-$(CONFIG_QCOM_QDSS_BRIDGE) += qdss_bridge.o
 obj-$(CONFIG_MFSE_QMI) += mfse_qmi_v01.o mfse_qmi.o
 obj-$(CONFIG_SERIAL_NUM) += serial_num.o
+obj-$(CONFIG_STATE_NOTIFIER) += state_notifier.o
 
 ifeq ($(CONFIG_ANDROID),y)
 CFLAGS_rpm_stats.o += -DCONFIG_DEBUG_FS
