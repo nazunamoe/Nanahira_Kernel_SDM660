@@ -64,6 +64,7 @@ struct sugov_policy {
 	/* Framebuffer callbacks */
 	struct notifier_block fb_notif;
 	bool is_panel_blank;
+
 };
 
 struct sugov_cpu {
