@@ -169,3 +169,6 @@ config SND_I2S_PRIMARY
 
 config SND_SOC_MAX98937
 	tristate "maxim Instruments 98937 SmartAmp(R)"
+
+config ELLIPTICLABS
+	tristate "Elliptic Labs fake proximity sensor support"
