@@ -4412,6 +4412,7 @@ static int fg_psy_set_property(struct power_supply *psy,
 			return rc;
 		}
 		break;
+#ifdef CONFIG_MACH_XIAOMI_TULIP
 	case POWER_SUPPLY_PROP_FG_RESET_CLOCK:
 		rc = fg_bcl_reset(chip);
 		if (rc < 0) {
@@ -4419,6 +4420,7 @@ static int fg_psy_set_property(struct power_supply *psy,
 			return rc;
 		}
 		break;
+#endif
 	default:
 		break;
 	}
