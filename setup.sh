@@ -1,6 +1,6 @@
 #/bin/sh
 
-make O=out ARCH=arm64 vendor/clover_defconfig
+make O=out ARCH=arm64 clover_defconfig
 
 export ARCH=arm64
 export SUBARCH=arm64
