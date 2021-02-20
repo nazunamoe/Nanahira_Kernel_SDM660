@@ -7,7 +7,7 @@ export SUBARCH=arm64
 export DTC_EXT=dtc
 
 # PATH="/home/nazunamoe/proton-clang/bin:${PATH}" \
-PATH="/home/nazunamoe/proton-clang/bin:/home/nazunamoe/aarch64-linux-android-4.9/bin:/home/nazunamoe/arm-linux-androideabi-4.9/bin:${PATH}" \
+PATH="/home/nazunamoe/proton-clang/bin:/home/nazunamoe/proton-clang-build/install:${PATH}" \
 
 #make -j$(nproc --all) O=out \
 #			ARCH=arm64 \
