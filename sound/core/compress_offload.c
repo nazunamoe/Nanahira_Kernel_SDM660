@@ -705,7 +705,7 @@ static int snd_compr_stop(struct snd_compr_stream *stream)
 	if (!retval) {
 		/* clear flags and stop any drain wait */
 		stream->partial_drain = false;
-		stream->metadata_set = false;s
+		stream->metadata_set = false;
 		stream->runtime->state = SNDRV_PCM_STATE_SETUP;
 		wake_up(&stream->runtime->sleep);
 		stream->runtime->total_bytes_available = 0;
